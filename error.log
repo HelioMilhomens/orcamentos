@@ -1,0 +1,147 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 24/04/2023
+Time...............: 08:37:51
+
+Application name...: ./orca
+Workstation name...: deserver.zenirmoveis.com.br
+Available memory...: 9999
+Current disk.......: 
+Current directory..: home/zenir/modulo/orca
+Free disk space....: 52844687360
+
+Operating system...: Linux 2.6.32-431.11.2.el6.x86_64 x86_64
+xHarbour version...: xHarbour 1.2.3 Intl. (SimpLex) (Build 20130528)
+xHarbour built on..: Aug 11 2013 04:13:05
+C/C++ compiler.....: GNU C 4.4.7 (64 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+Current Area ......:48
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: ON
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .T.
+SET CANCEL.........: ON
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/N
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: ON
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: /
+SET EOL............: 10
+SET EPOCH..........: 2000
+SET ERRORLOG.......: ERROR.LOG,.F.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: EN
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: OFF
+SET MESSAGE........: 0
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: /ZENIR/SISTEMAS/TABELA
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: |LPR
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1001
+Default Status ....: .T.
+Description .......: Open error
+Operation .........: 
+Arguments .........: 
+Involved File .....: empresa.dbf
+Dos Error Code ....: 2
+
+ Trace Through:
+----------------
+DBUSEAREA             :       0 in Module: 
+VERIOUT               :      27 in Module: rede.prg
+TELAIN                :   2,322 in Module: siste.prg
+MAIN                  :     157 in Module: siste.prg
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ³|
+|³                                                                              ³|
+|³                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                        ³|
+|³ Acesso ao Sistema   ³              ³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                ³|
+|³                      ³              ³ ³  2013/xHarbour/ C   ³                ³|
+|³                      ³              ³ ³  Conectiva Linux    ³                ³|
+|³                      ³              ³ ³  M¢dulo Vendas      ³                ³|
+|³                      ³              ³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                ³|
+|³                      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                        ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                                                                              ³|
+|³                      Abrindo arquivo... empresa                              ³|
+|Error DBFCDX/1001  Open error: empresa.dbf (DOS Error 2)ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                                                                                |
+|Error at ...: DBUSEAREA(0) in Module:                                           |
+|Called from : VERIOUT(27) in Module: rede.prg                                   |
+|Called from : TELAIN(2322) in Module: siste.prg                                 |
+|Called from : MAIN(157) in Module: siste.prg                                    |
++--------------------------------------------------------------------------------+
+
+
